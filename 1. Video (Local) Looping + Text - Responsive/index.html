@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero Video Looping + Text</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section>
+  <div class="header">
+    <div class="header__video js-background-video">
+      <div class="header__background">
+        <video id="bg-video" autoplay muted loop>
+          <source src="vid/montagne.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="header__video-overlay js-video-overlay"></div>
+    <h1 class="header__title">Montagnes Majestueuses</h1>
+    <p class="header__text">Découvrez des vues à couper le souffle</p>
+  </div>
+</section>
+  <script  src="./script.js"></script>
+</body>
+</html>

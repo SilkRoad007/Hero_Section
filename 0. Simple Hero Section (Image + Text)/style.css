@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background: linear-gradient(#0006, #0006), url(https://source.unsplash.com/2600x1200?city);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-inner {
+  padding: 0 24px;
+}
+
+.hero-headline {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
